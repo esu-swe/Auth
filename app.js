@@ -9,7 +9,7 @@ const encrypt = require("mongoose-encryption");
 
 const app = express();
 
-console.log(process.env.API_KEY)
+// console.log(process.env.API_KEY)
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({
